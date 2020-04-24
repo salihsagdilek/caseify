@@ -6,9 +6,6 @@
   "scripts": {
     "build": "rollup -c"
   },
-  "pre-push": [
-    "build"
-  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/salihsagdilek/caseify.git"
