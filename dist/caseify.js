@@ -2214,7 +2214,14 @@
 	  handler: handler
 	};
 
-	var caseTypes = new Map([['camelCase', camelCase], ['snake_case', snakeCase], ['kebap-case', kebapCase], ['PascalCase', pascalCase], ['UPPERCASE', upperCase], ['UPPER_CASE', upperCaseWithSnake]]);
+	var dotCase = {
+	  joiner: '.',
+	  handler: function handler(arr) {
+	    return arr.join(this.joiner);
+	  }
+	};
+
+	var caseTypes = new Map([['camelCase', camelCase], ['snake_case', snakeCase], ['kebap-case', kebapCase], ['PascalCase', pascalCase], ['UPPERCASE', upperCase], ['UPPER_CASE', upperCaseWithSnake], ['dot.case', dotCase]]);
 
 	function caseify(str, to) {
 	  var options = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};

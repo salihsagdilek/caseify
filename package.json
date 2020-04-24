@@ -1,6 +1,6 @@
 {
   "name": "@salihsagdilek/caseify",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Convert across case types",
   "main": "src/caseify.js",
   "scripts": {
