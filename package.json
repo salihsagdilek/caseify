@@ -1,7 +1,18 @@
 {
   "name": "@salihsagdilek/caseify",
-  "version": "0.2.0",
-  "description": "Convert across case types",
+  "version": "0.2.1",
+  "description": "Super smart convert across case types",
+  "keywords": [
+    "camelcase",
+    "kebapcase",
+    "snakecase",
+    "pascalcase",
+    "uppercase",
+    "dotcase",
+    "caseify",
+    "case converter",
+    "case types"
+  ],
   "main": "src/caseify.js",
   "scripts": {
     "build": "rollup -c"
