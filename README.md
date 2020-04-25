@@ -1,5 +1,11 @@
 # caseify
 
+## installation
+
+```javascript
+npm i @salihsagdilek/caseify
+```
+
 ## usage
 
 ```javascript
